@@ -1,0 +1,178 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin:0;
+    background-attachment: fixed;
+}
+
+.box{
+    background:white;
+    border: 1px solid rgba(0,0,0,0.1);
+    padding: 25px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    width: 300px;
+
+}
+
+.box:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+.logo{
+    width: 180px;
+    margin: 10px 0 25px;
+    transition: transform 0.3s;
+}
+
+.logo:hover{
+    transform: scale(1.05);
+}
+.input-box{
+   margin: 12px 0;
+
+}
+
+input{
+    width: 100%;
+    padding: 12px;
+
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background: #fafafa;
+    transition: all 0.3s;
+
+}
+
+input:focus{
+    border-color: #0095f6;
+    background:white; 
+    box-shadow: 0 0 0 2px rgba(0,149,246,0.2);
+
+
+}
+
+.eye-icon{
+    position: absolute;
+    right: 12px;
+
+}
+
+.login-button{
+    width:100%;
+    padding: 10px;
+    background: linear-gradient(45deg,#0095f6,#0064e0);
+    border:none;
+    border-radius: 6px;
+    font-weight: bold;
+    margin: 15px 0;
+    cursor:pointer;
+    transition: all 0.3s;
+    color:white;
+
+}
+.login-button:hover{
+    background: linear-gradient(45deg,#0081e0,#0052c0);
+    transform: translateY(-2px);
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+
+}
+
+.or{
+    margin: 20px 0;
+    color: #888;
+    position: relative;
+    font-size: 13px;
+
+}
+
+
+.or:before, .or:after{
+    content:"" ;
+    background: #ddd;
+    height: 1px;
+    width: 40%;
+    position: absolute;
+    top: 50%;
+}
+
+.or:before{
+    left:0;
+}
+
+.or:after{
+    right: 0px;
+}
+
+.fb-login{
+    color: #385185;
+    font-weight: bold;
+    margin: 20px 0;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.fb-login:hover{
+    color: #2d4373;
+    transform: scale(1.02);
+
+}
+
+
+.fb-login i{
+    margin-right: 8px;
+    transition: transform 0.3s;
+}
+
+.fb-login:hover i{
+    transform: rotate(5deg);
+}
+
+.forgot{
+    color: #00376b;
+    text-decoration: none;
+    font-size: 12px;
+    display: block;
+    margin: 15px 0;
+    transition: all 0.3s;
+}
+
+.forgot:hover{
+    color: #0095f6;
+    transform: translateX(3px);
+
+}
+
+.sign-up{
+    background:white;
+    border:1px solid rgba(0,0,0,0.1);
+    padding: 20px;
+    width: 320px;
+    text-align: center;
+    margin-top:15px;
+    font-size: 14px;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0,1);
+}
+.sign-up a{
+    color: #0095f5;
+    text-decoration: none;
+    font-weight: bolder;
+    transition: all 0.3s;
+}
+
+.back_div{
+	padding: 10px 20px;
+	margin-top: 40px;
+	border-radius: 9px;
+    border: none;
+
+}
